@@ -1,7 +1,7 @@
 
 # required helm provider for this module 
 provider "helm" { 
-    version = "1.0.0"
+    version = "0.10.6"
      alias = "default"
 }
 
