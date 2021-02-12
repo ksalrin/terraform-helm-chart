@@ -16,9 +16,3 @@ provider "template" {
     version  = "2.1.2"
     alias = "default"
 }
-
-provider "google" {
-    version  = "~>1.0"
-    alias = "default"
-}
-
