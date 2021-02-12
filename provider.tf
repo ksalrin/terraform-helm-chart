@@ -3,4 +3,5 @@ terraform {
 }
 provider "google" {
     version  = "~>1.0"
+    alias = "default"
 }
