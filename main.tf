@@ -73,9 +73,3 @@ resource "helm_release" "helm_remote_deployment" {
   ]
 
 }
-
-provider "google" {
-  version = "~> 1.0"
-  alias   = "default"
-  project     = "${var.google_project_id}"
-  }
