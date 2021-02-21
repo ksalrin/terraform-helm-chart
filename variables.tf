@@ -13,11 +13,6 @@ variable "deployment_path" {
   description = "Chart location or chart name <stable/example>"
 }
 
-## Endpoint for the application
-variable "deployment_endpoint" {
-  description = "Endpoint for the application"
-}
-
 variable "template_custom_vars" {
   type    = "map"
   default = {}

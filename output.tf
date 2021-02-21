@@ -26,15 +26,6 @@ output "success_output" {
   - View your deployment service(s):
       kubectl get service -n ${var.deployment_environment} ${var.deployment_name}-${var.deployment_environment} 
 
-
- ================================================================
-  
-  Please navigate to this address to view your application:
-     
-     URL: https://${var.deployment_endpoint}/
-
- ===============================================================
-
   EOF
 }
 
